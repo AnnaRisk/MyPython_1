@@ -1,9 +1,9 @@
 from selene.support.shared import browser
 from selene import be, have
-import pytest
 
 
-@pytest.fixture()
+
+
 def test_open_web11():
     browser.open('https://google.com')
     browser.config.window_width = 1200

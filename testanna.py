@@ -4,7 +4,7 @@ import pytest
 
 
 @pytest.fixture()
-def test_before_each1(request):
+def test_before_each(request):
     browser.open('https://google.com')
 
 
